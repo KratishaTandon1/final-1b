@@ -1,0 +1,42 @@
+# Use Docker ignore to reduce build context size
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.log
+.git
+.gitignore
+README.md
+.pytest_cache
+.mypy_cache
+
+# Exclude non-essential files
+*.md
+!README.md
+OPTIMIZATION_SUMMARY.md
+PERFORMANCE_COMPLIANCE_REPORT.md
+SCORING_OPTIMIZATION_REPORT.md
+FINAL_DELIVERABLES.md
+EXECUTION_INSTRUCTIONS.md
+DIVERSITY_ANALYSIS.md
+approach_explanation.md
+
+# Exclude development files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Exclude output files from previous runs
+*_output.json
+*_results.json
+*.tmp

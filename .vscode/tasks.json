@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Document Analyst Demo",
+			"type": "shell",
+			"command": "C:/Users/pratandon/AppData/Local/Microsoft/WindowsApps/python3.11.exe",
+			"args": [
+				"demo.py"
+			],
+			"group": "build",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}
